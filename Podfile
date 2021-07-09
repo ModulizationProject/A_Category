@@ -5,5 +5,5 @@ source 'https://github.com/ModulizationProject/ModulizationPod.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'A_Category' do
-
+pod 'CTMediator'
 end
