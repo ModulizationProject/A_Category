@@ -22,5 +22,11 @@
     params[@"callback"] = callback;
     return [self performTarget:@"A" action:@"Category_ViewController" params:params shouldCacheTarget:NO];
 }
-
+- (UIViewController *)A_aViewController
+{
+    /*
+        AViewController *viewController = [[AViewController alloc] init];
+     */
+    return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:NO];
+}
 @end
